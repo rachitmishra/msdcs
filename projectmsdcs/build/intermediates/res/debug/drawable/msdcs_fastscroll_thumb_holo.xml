@@ -18,4 +18,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/msdcs_fastscroll_thumb_pressed_holo" />
     <item android:drawable="@drawable/msdcs_fastscroll_thumb_default_holo" />
 </selector>
-<!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/drawable/msdcs_fastscroll_thumb_holo.xml -->
+<!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/drawable/msdcs_fastscroll_thumb_holo.xml -->

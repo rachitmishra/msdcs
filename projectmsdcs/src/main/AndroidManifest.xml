@@ -21,13 +21,13 @@
         android:name=".MsdcsApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_abbrevation" >
         
         <activity
             android:name=".activity.HomeActivity"
             android:label="@string/app_name"
             android:logo="@android:color/transparent"
-            android:theme="@style/Msdcs"
+            android:theme="@style/m"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

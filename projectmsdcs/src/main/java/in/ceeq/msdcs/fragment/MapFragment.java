@@ -419,7 +419,7 @@ public class MapFragment extends Fragment implements OnMapClickListener, OnMarke
 
 		surveyValues.put(SurveyContract.Details.DISEASE_NAME, mDiseaseName.getText().toString());
 		surveyValues.put(SurveyContract.Details.DISEASE_SEVERITY_SCORE, mDiseaseSeverityScore.getText().toString());
-		surveyValues.put(SurveyContract.Details.PEST_NAME, mDiseaseName.getText().toString());
+		surveyValues.put(SurveyContract.Details.PEST_NAME, mPestName.getText().toString());
 		surveyValues.put(SurveyContract.Details.PEST_INFESTATION_COUNT, mPestInfestationCount.getText().toString());
 		surveyValues.put(SurveyContract.Details.CROP_STAGE, mCropStageSpinner.getSelectedItemPosition());
 		double latitude = (Double) mFormLayout.getTag(R.string.tag_latitude);

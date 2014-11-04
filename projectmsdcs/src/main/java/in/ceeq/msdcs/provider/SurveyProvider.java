@@ -66,6 +66,10 @@ public class SurveyProvider extends ContentProvider {
 
     // private static final String LIKE = " LIKE ";
 
+    public static final String ASC = " ASC ";
+
+    //private static final String DESC = " DESC ";
+
     public SurveyProvider () {
     }
 
@@ -156,7 +160,7 @@ public class SurveyProvider extends ContentProvider {
                         values.getAsLong(SurveyContract.Details.DATE_SOWING));
                 detailValues.put(SurveyContract.Details.DATE_SURVEY,
                         values.getAsLong(SurveyContract.Details.DATE_SURVEY));
-                detailValues.put(SurveyContract.Details.CROP_STAGE, values.getAsString(SurveyContract.Details
+                detailValues.put(SurveyContract.Details.CROP_STAGE, values.getAsInteger(SurveyContract.Details
                         .CROP_STAGE));
                 detailValues.put(SurveyContract.Details.DISEASE_NAME,
                         values.getAsString(SurveyContract.Details.DISEASE_NAME));

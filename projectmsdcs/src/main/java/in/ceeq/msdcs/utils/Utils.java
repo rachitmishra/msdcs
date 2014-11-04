@@ -1,10 +1,31 @@
 package in.ceeq.msdcs.utils;
 
-import in.ceeq.msdcs.R;
-import in.ceeq.msdcs.fragment.ExportFragment;
-import in.ceeq.msdcs.provider.BaseColumns;
-import in.ceeq.msdcs.provider.SurveyContract;
-import in.ceeq.msdcs.provider.entity.User;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.database.Cursor;
+import android.location.LocationManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
+import android.os.Environment;
+import android.preference.PreferenceManager;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.inputmethod.InputMethodManager;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.pdfjet.A4;
+import com.pdfjet.Align;
+import com.pdfjet.Cell;
+import com.pdfjet.Color;
+import com.pdfjet.CoreFont;
+import com.pdfjet.Font;
+import com.pdfjet.PDF;
+import com.pdfjet.Page;
+import com.pdfjet.Table;
+import com.pdfjet.TextLine;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,34 +42,16 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import android.app.Activity;
-import android.content.ContentResolver;
-import android.content.Context;
-import android.database.Cursor;
-import android.location.LocationManager;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
-import android.os.Environment;
-import android.preference.PreferenceManager;
-import android.util.Log;
-import android.view.inputmethod.InputMethodManager;
 import au.com.bytecode.opencsv.CSVWriter;
-
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
-import com.pdfjet.A4;
-import com.pdfjet.Align;
-import com.pdfjet.Cell;
-import com.pdfjet.Color;
-import com.pdfjet.CoreFont;
-import com.pdfjet.Font;
-import com.pdfjet.PDF;
-import com.pdfjet.Page;
-import com.pdfjet.Table;
-import com.pdfjet.TextLine;
+import in.ceeq.msdcs.R;
+import in.ceeq.msdcs.fragment.ExportFragment;
+import in.ceeq.msdcs.provider.BaseColumns;
+import in.ceeq.msdcs.provider.SurveyContract;
+import in.ceeq.msdcs.provider.entity.User;
 
 public class Utils {
+
+    public static final String PIPE = " | ";
 
 	/**
 	 * Get formatted column name.
@@ -150,7 +153,6 @@ public class Utils {
 
 			tableData.add(headerRow);
 
-			data.moveToFirst();
 			int idIndex = data.getColumnIndex(SurveyContract.Details._ID);
 			int dateSowingIndex = data.getColumnIndex(SurveyContract.Details.DATE_SOWING);
 			int dateSurveyIndex = data.getColumnIndex(SurveyContract.Details.DATE_SURVEY);
@@ -228,7 +230,6 @@ public class Utils {
 	}
 
 	private static void exportCsv(Context context, String fileName, Cursor data) {
-		data.moveToFirst();
 		int idIndex = data.getColumnIndex(SurveyContract.Details._ID);
 		int dateSowingIndex = data.getColumnIndex(SurveyContract.Details.DATE_SOWING);
 		int dateSurveyIndex = data.getColumnIndex(SurveyContract.Details.DATE_SURVEY);
@@ -274,7 +275,6 @@ public class Utils {
 	}
 
 	private static void exportText(Context context, String fileName, Cursor data) {
-		data.moveToFirst();
 		int idIndex = data.getColumnIndex(SurveyContract.Details._ID);
 		int dateSowingIndex = data.getColumnIndex(SurveyContract.Details.DATE_SOWING);
 		int dateSurveyIndex = data.getColumnIndex(SurveyContract.Details.DATE_SURVEY);
@@ -291,28 +291,54 @@ public class Utils {
 			FileWriter writer = new FileWriter(file, true);
 			StringBuilder exportHeaderBuilder = new StringBuilder();
 			for (String columnName : getDefaultExportHeaderNames()) {
-				exportHeaderBuilder.append(getColumnName(columnName)).append(BaseColumns.COMMA);
+				exportHeaderBuilder.append(getColumnName(columnName)).append(PIPE);
 			}
 			writer.append(exportHeaderBuilder.substring(0, exportHeaderBuilder.length() - 1) + "\n\n");
 			writer.flush();
 
 			while (data.moveToNext()) {
 				StringBuilder exportDataBuilder = new StringBuilder();
-				exportDataBuilder.append(data.getInt(idIndex) + "").append(BaseColumns.COMMA);
+				exportDataBuilder.append(data.getInt(idIndex) + "").append(PIPE);
 				exportDataBuilder.append(getFormattedDate(data.getLong(dateSowingIndex), "dd-MM-yyyy")).append(
-						BaseColumns.COMMA);
+                        PIPE);
 				exportDataBuilder.append(getFormattedDate(data.getLong(dateSurveyIndex), "dd-MM-yyyy")).append(
-						BaseColumns.COMMA);
+                        PIPE);
 				DecimalFormat decimalFormat = new DecimalFormat("##.0000");
-				exportDataBuilder.append(decimalFormat.format(data.getDouble(latitudeIndex))).append(BaseColumns.COMMA);
+				exportDataBuilder.append(decimalFormat.format(data.getDouble(latitudeIndex))).append(PIPE);
 				exportDataBuilder.append(decimalFormat.format(data.getDouble(longitudeIndex)))
-						.append(BaseColumns.COMMA);
+						.append(PIPE);
 				exportDataBuilder.append(getCropStageString(context, data.getInt(cropStageIndex))).append(
-						BaseColumns.COMMA);
-				exportDataBuilder.append(data.getString(diseaseNameIndex)).append(BaseColumns.COMMA);
-				exportDataBuilder.append(data.getString(diseaseSeverityIndex)).append(BaseColumns.COMMA);
-				exportDataBuilder.append(data.getString(pestNameIndex)).append(BaseColumns.COMMA);
-				exportDataBuilder.append(data.getString(pestInfestationIndex)).append(BaseColumns.COMMA);
+                        PIPE);
+
+                String diseaseName =data.getString(diseaseNameIndex);
+                if(!TextUtils.isEmpty(diseaseName)) {
+                    exportDataBuilder.append(diseaseName).append(PIPE);
+                } else {
+                    exportDataBuilder.append("").append(PIPE);
+                }
+
+
+                String diseaseSeverityScore = data.getString(diseaseSeverityIndex);
+                if(!TextUtils.isEmpty(diseaseSeverityScore)) {
+                    exportDataBuilder.append(diseaseSeverityScore).append(PIPE);
+                } else {
+                    exportDataBuilder.append("").append(PIPE);
+                }
+
+                String pestName = data.getString(pestNameIndex);
+                if(!TextUtils.isEmpty(pestName)) {
+                    exportDataBuilder.append(pestName).append(PIPE);
+                } else {
+                    exportDataBuilder.append("").append(PIPE);
+                }
+
+                String pestInfestationCount = data.getString(pestInfestationIndex);
+                if(!TextUtils.isEmpty(pestInfestationCount)) {
+                    exportDataBuilder.append(pestInfestationCount).append(PIPE);
+                } else {
+                    exportDataBuilder.append("").append(PIPE);
+                }
+
 				writer.append(exportDataBuilder.toString() + "\n");
 				writer.flush();
 			}
@@ -569,7 +595,7 @@ public class Utils {
 	 ***************** Files ***************
 	 **************************************/
 
-	public static final String APP_PATH = "/msdcs";
+	public static final String APP_PATH = "/exports";
 
 	public static File createFile(int type, String path, String name, Context ctx) throws IOException,
 			ExternalStorageNotFoundException {

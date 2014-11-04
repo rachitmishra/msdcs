@@ -63,4 +63,4 @@
     <item android:state_checked="true" android:drawable="@drawable/msdcs_btn_check_on_disabled_holo_light" />
 
 </selector>
-<!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/drawable/msdcs_btn_check_holo_light.xml -->
+<!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/drawable/msdcs_btn_check_holo_light.xml -->

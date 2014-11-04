@@ -3,37 +3,27 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="Msdcs" parent="@style/Theme.Msdcs"/>
+    <style name="m" parent="@style/_m"/>
 
-  <style name="Theme.Msdcs" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+    <style name="_m" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
 
-    <item name="android:editTextBackground">@drawable/msdcs_edit_text_holo_light</item>
+        <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
 
-    <item name="android:textColorHighlight">#996ac639</item>
-    <item name="android:textSelectHandleLeft">@drawable/msdcs_text_select_handle_left</item>
-    <item name="android:textSelectHandleRight">@drawable/msdcs_text_select_handle_right</item>
-    <item name="android:textSelectHandle">@drawable/msdcs_text_select_handle_middle</item>
+        <item name="android:textColorHighlight">#996ac639</item>
+        <item name="android:textSelectHandleLeft">@drawable/m_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/m_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle_middle</item>
 
-    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMsdcs</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewm</item>
 
-    <item name="android:listChoiceIndicatorMultiple">@drawable/msdcs_btn_check_holo_light</item>
+        <item name="android:buttonStyle">@style/Buttonm</item>
 
-    <item name="android:listChoiceIndicatorSingle">@drawable/msdcs_btn_radio_holo_light</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonm</item>
 
-    <item name="android:buttonStyle">@style/ButtonMsdcs</item>
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerm</item>
 
-    <item name="android:imageButtonStyle">@style/ImageButtonMsdcs</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarm</item>
 
-    <item name="android:dropDownSpinnerStyle">@style/SpinnerMsdcs</item>
-
-    <item name="android:buttonStyleToggle">@style/ToggleMsdcs</item>
-
-    <item name="android:listChoiceBackgroundIndicator">@drawable/msdcs_list_selector_holo_light</item>
-
-    <item name="android:activatedBackgroundIndicator">@drawable/msdcs_activated_background_holo_light</item>
-
-    <item name="android:fastScrollThumbDrawable">@drawable/msdcs_fastscroll_thumb_holo</item>
-
-  </style>
+    </style>
 
 </resources>

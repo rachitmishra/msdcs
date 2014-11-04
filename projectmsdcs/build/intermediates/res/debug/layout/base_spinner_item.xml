@@ -7,4 +7,4 @@
     android:layout_height="wrap_content"
     android:ellipsize="marquee"
     android:padding="4dp"/>
-<!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/layout/base_spinner_item.xml -->
+<!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/layout/base_spinner_item.xml -->

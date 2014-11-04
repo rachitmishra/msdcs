@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\AndroidstudioProjects\ProjectMsdcs\projectmsdcs\src\androidTest\res"/><source path="D:\AndroidstudioProjects\ProjectMsdcs\projectmsdcs\build\generated\res\rs\test\debug"/><source path="D:\AndroidstudioProjects\ProjectMsdcs\projectmsdcs\build\generated\res\generated\test\debug"/></dataSet><mergedItems/></merger>
+<merger version="3"><dataSet config="main"><source path="D:\source\ProjectMsdcs\projectmsdcs\src\androidTest\res"/><source path="D:\source\ProjectMsdcs\projectmsdcs\build\generated\res\rs\test\debug"/><source path="D:\source\ProjectMsdcs\projectmsdcs\build\generated\res\generated\test\debug"/></dataSet><mergedItems/></merger>

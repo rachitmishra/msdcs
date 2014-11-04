@@ -23,4 +23,4 @@
           android:drawable="@drawable/msdcs_spinner_focused_holo_light" />
     <item android:drawable="@drawable/msdcs_spinner_default_holo_light" />
 </selector>
-<!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/drawable/msdcs_spinner_background_holo_light.xml -->
+<!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/drawable/msdcs_spinner_background_holo_light.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="map_crop_stages">
         <item>Vegitative</item>
@@ -9,17 +9,17 @@
         <item>Seed filling</item>
         <item>Oil accumulation</item>
     </string-array>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/colors.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="blue">#3498db</color>
     <color name="card_background">#ffffff</color>
     <color name="card_detailing">#eee</color>
     <color name="card_shadow_1">#d4d4d4</color>
     <color name="card_shadow_2">#dddddd</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_colors.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -31,18 +31,18 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="dark_gray">#333333</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/colors.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="green">#2ecc71</color>
     <color name="light_background">#f0f0f0</color>
     <color name="light_black">#808080</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="light_gray">#AFFFFFFF</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/colors.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="msdcs_color">#6ac639</color>
     <color name="red">#e74c3c</color>
@@ -52,7 +52,7 @@
     <color name="text_microsoft_excel">#1abc9c</color>
     <color name="timeline_background">#e5e5e5</color>
     <color name="transparent">#00000000</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_colors.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -67,44 +67,43 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <color name="white">#FFFFFF</color>
     <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
     <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
-    <declare-styleable name="FloatLabeledEditText"><attr format="string" name="fletFloatingHint"/><attr format="boolean" name="fletSingleLine"/><attr format="reference|color" name="fletHintTextColor"/><attr format="reference|color" name="fletTextColor"/><attr format="string" name="fletImeActionLabel"/><attr format="integer" name="fletImeActionId"/><attr name="fletInputType"><flag name="none" value="0x00000000"/><flag name="text" value="0x00000001"/><flag name="textCapCharacters" value="0x00001001"/><flag name="textCapWords" value="0x00002001"/><flag name="textCapSentences" value="0x00004001"/><flag name="textAutoCorrect" value="0x00008001"/><flag name="textAutoComplete" value="0x00010001"/><flag name="textMultiLine" value="0x00020001"/><flag name="textImeMultiLine" value="0x00040001"/><flag name="textNoSuggestions" value="0x00080001"/><flag name="textUri" value="0x00000011"/><flag name="textEmailAddress" value="0x00000021"/><flag name="textEmailSubject" value="0x00000031"/><flag name="textShortMessage" value="0x00000041"/><flag name="textLongMessage" value="0x00000051"/><flag name="textPersonName" value="0x00000061"/><flag name="textPostalAddress" value="0x00000071"/><flag name="textPassword" value="0x00000081"/><flag name="textVisiblePassword" value="0x00000091"/><flag name="textWebEditText" value="0x000000a1"/><flag name="textFilter" value="0x000000b1"/><flag name="textPhonetic" value="0x000000c1"/><flag name="textWebEmailAddress" value="0x000000d1"/><flag name="textWebPassword" value="0x000000e1"/><flag name="number" value="0x00000002"/><flag name="numberSigned" value="0x00001002"/><flag name="numberDecimal" value="0x00002002"/><flag name="numberPassword" value="0x00000012"/><flag name="phone" value="0x00000003"/><flag name="datetime" value="0x00000004"/><flag name="date" value="0x00000014"/><flag name="time" value="0x00000024"/></attr><attr name="fletImeOptions"><flag name="normal" value="0x00000000"/><flag name="actionUnspecified" value="0x00000000"/><flag name="actionNone" value="0x00000001"/><flag name="actionGo" value="0x00000002"/><flag name="actionSearch" value="0x00000003"/><flag name="actionSend" value="0x00000004"/><flag name="actionNext" value="0x00000005"/><flag name="actionDone" value="0x00000006"/><flag name="actionPrevious" value="0x00000007"/><flag name="flagNoFullscreen" value="0x2000000"/><flag name="flagNavigatePrevious" value="0x4000000"/><flag name="flagNavigateNext" value="0x8000000"/><flag name="flagNoExtractUi" value="0x10000000"/><flag name="flagNoAccessoryAction" value="0x20000000"/><flag name="flagNoEnterAction" value="0x40000000"/><flag name="flagForceAscii" value="0x80000000"/></attr></declare-styleable>
     <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
     <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
     <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/dimens.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="buttontoast_hover">24dp</dimen>
     <dimen name="buttontoast_x_padding">12dp</dimen>
     <dimen name="cardtoast_margin">4dp</dimen>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/dimens.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="tab_host_default_height">48dp</dimen>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <dimen name="toast_hover">64dp</dimen>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.3/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.3/res/values/values.xml -->
     <eat-comment/>
     <item name="text" type="id"/>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/version.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">6171000</integer>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about">About</string>
     <string name="about_summary">Save last map state</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="accept">Accept</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_register">Register</string>
     <string name="action_sign_in_short">Register</string>
@@ -112,10 +111,10 @@
     <string name="app_name">Mobile Survey &amp; Data Collection</string>
     <string name="cancel">Cancel</string>
     <string name="choose">Choose</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/com_crashlytics_export_strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/com_crashlytics_export_strings.xml -->
     <eat-comment/>
-    <string name="com.crashlytics.android.build_id">b5cfe7b6-b941-464c-bf7f-e48067d7b643</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_strings.xml -->
+    <string name="com.crashlytics.android.build_id">5e72309c-0cfb-4cf3-b119-f44ca74b01a2</string>
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
@@ -145,7 +144,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="contact">Contact</string>
     <string name="contact_email">support@ceeq.in</string>
@@ -154,12 +153,12 @@
     <string name="content_desc_map_toggle">Toggle map type</string>
     <string name="content_desc_zoom_in">Zoom in</string>
     <string name="content_desc_zoom_out">Zoom out</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="error_field_required">This field is required</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -192,11 +191,11 @@
     <string name="prompt_password">Password (optional)</string>
     <string name="save">Save</string>
     <string name="spinner_value">Spinner Value</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="tag_day">tag_day</string>
     <string name="tag_latitude">tag_latitude</string>
@@ -207,21 +206,16 @@
     <string name="toggle_in">Hide Tabs</string>
     <string name="toggle_out">Show Tabs</string>
     <string name="version">Version 1.0 beta</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_strings.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_strings.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AutoCompleteTextViewMsdcs" parent="android:Widget.AutoCompleteTextView">
-        <item name="android:dropDownSelector">@drawable/msdcs_list_selector_holo_light</item>
-        <item name="android:background">@drawable/msdcs_edit_text_holo_light</item>
-        <item name="android:textColor">#000000</item>
-    </style>
-    <style name="AutoCompleteTextViewmsdcs" parent="android:Widget.Holo.Light.AutoCompleteTextView">
-        <item name="android:dropDownSelector">@drawable/msdcs_list_selector_holo_light</item>
-        <item name="android:background">@drawable/msdcs_edit_text_holo_light</item>
-    </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.3/res/values/values.xml -->
+    <style name="AutoCompleteTextViewm" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+	    <item name="android:background">@drawable/edit_text_holo_light</item>
+  </style>
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
         <item name="android:textSize">14sp</item>
@@ -230,25 +224,19 @@
     <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
         <item name="android:textColor">#ffeeeeee</item>
     </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="ButtonMsdcs" parent="android:Widget.Button">
-        <item name="android:background">@drawable/msdcs_btn_default_holo_light</item>
-        <item name="android:minHeight">48dip</item>
-        <item name="android:minWidth">64dip</item>
-        <item name="android:textColor">#000000</item>
+    <style name="Buttonm" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
     </style>
-    <style name="Buttonmsdcs" parent="android:Widget.Holo.Light.Button">
-        <item name="android:background">@drawable/msdcs_btn_default_holo_light</item>
-    </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.3/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.3/res/values/values.xml -->
     <eat-comment/>
     <style name="ClusterIcon.TextAppearance" parent="android:TextAppearance">
         <item name="android:textColor">#ffeeeeee</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <style name="DefaultRootLayout">
         <item name="android:background">@drawable/background_standard_gray</item>
@@ -263,41 +251,20 @@
         <item name="android:paddingLeft">16dp</item>
         <item name="android:paddingRight">16dp</item>
     </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="EditTextMsdcs" parent="android:Widget.EditText">
-        <item name="android:background">@drawable/msdcs_edit_text_holo_light</item>
-        <item name="android:textColor">#000000</item>
+    <style name="ImageButtonm" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
     </style>
-    <style name="ImageButtonMsdcs" parent="android:Widget.ImageButton">
-        <item name="android:background">@drawable/msdcs_btn_default_holo_light</item>
-    </style>
-    <style name="ImageButtonmsdcs" parent="android:Widget.Holo.Light.ImageButton">
-        <item name="android:background">@drawable/msdcs_btn_default_holo_light</item>
-    </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/themes.xml -->
-    <eat-comment/>
-    <style name="Msdcs" parent="@style/Theme.Msdcs"/>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="ProgressBarMsdcs" parent="android:Widget.ProgressBar.Horizontal">
-        <item name="android:progressDrawable">@drawable/msdcs_progress_horizontal_holo_light</item>
-        <item name="android:indeterminateDrawable">@drawable/msdcs_progress_indeterminate_horizontal_holo_light</item>
-        <item name="android:minHeight">16dip</item>
-        <item name="android:maxHeight">16dip</item>
-    </style>
-    <style name="SpinnerDropDownItemMsdcs" parent="android:Widget.DropDownItem.Spinner">
-        <item name="android:checkMark">@drawable/msdcs_btn_radio_holo_light</item>
-    </style>
-    <style name="SpinnerMsdcs" parent="android:Widget.Spinner">
-        <item name="android:background">@drawable/msdcs_spinner_background_holo_light</item>
-        <item name="android:dropDownSelector">@drawable/msdcs_list_selector_holo_light</item>
-    </style>
-    <style name="Spinnermsdcs" parent="android:Widget.Holo.Light.Spinner">
-        <item name="android:background">@drawable/msdcs_spinner_background_holo_light</item>
-        <item name="android:dropDownSelector">@drawable/msdcs_list_selector_holo_light</item>
-    </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
+    <style name="ProgressBarm" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_light</item>
+  </style>
+    <style name="Spinnerm" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+  </style>
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/1.3.4/res/values/values.xml -->
     <eat-comment/>
     <style name="SuperActivityToast_Button_Button">
         <item name="android:background">@drawable/selector_undobutton</item>
@@ -343,27 +310,7 @@
     <style name="SuperCardToast_Button_RootLayout" parent="DefaultRootLayout">
         <item name="android:background">@drawable/selector_undobutton</item>
     </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="TabTextmsdcs">
-        <item name="android:textColor">#000000</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textStyle">bold</item>
-        <!-- v14 <item name="android:textAllCaps">true</item> -->
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:maxWidth">180dip</item>
-    </style>
-    <style name="Tabmsdcs">
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:paddingLeft">16dip</item>
-        <item name="android:paddingRight">16dip</item>
-        <item name="android:background">@drawable/msdcs_tab_indicator_holo</item>
-        <item name="android:layout_width">0dip</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:minWidth">80dip</item>
-    </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_iap_style.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_iap_style.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -373,44 +320,7 @@
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/themes.xml -->
-    <eat-comment/>
-    <style name="Theme.Msdcs" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
-
-    <item name="android:editTextBackground">@drawable/msdcs_edit_text_holo_light</item>
-
-    <item name="android:textColorHighlight">#996ac639</item>
-    <item name="android:textSelectHandleLeft">@drawable/msdcs_text_select_handle_left</item>
-    <item name="android:textSelectHandleRight">@drawable/msdcs_text_select_handle_right</item>
-    <item name="android:textSelectHandle">@drawable/msdcs_text_select_handle_middle</item>
-
-    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMsdcs</item>
-
-    <item name="android:listChoiceIndicatorMultiple">@drawable/msdcs_btn_check_holo_light</item>
-
-    <item name="android:listChoiceIndicatorSingle">@drawable/msdcs_btn_radio_holo_light</item>
-
-    <item name="android:buttonStyle">@style/ButtonMsdcs</item>
-
-    <item name="android:imageButtonStyle">@style/ImageButtonMsdcs</item>
-
-    <item name="android:dropDownSpinnerStyle">@style/SpinnerMsdcs</item>
-
-    <item name="android:buttonStyleToggle">@style/ToggleMsdcs</item>
-
-    <item name="android:listChoiceBackgroundIndicator">@drawable/msdcs_list_selector_holo_light</item>
-
-    <item name="android:activatedBackgroundIndicator">@drawable/msdcs_activated_background_holo_light</item>
-
-    <item name="android:fastScrollThumbDrawable">@drawable/msdcs_fastscroll_thumb_holo</item>
-
-  </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="ToggleMsdcs" parent="android:Widget.Holo.Light.Button.Toggle">
-        <item name="android:background">@drawable/msdcs_btn_toggle_holo_light</item>
-    </style>
-    <!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_styles.xml -->
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_styles.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
@@ -444,4 +354,27 @@
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">classic</item>
     </style>
+    <!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="_m" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+
+        <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#996ac639</item>
+        <item name="android:textSelectHandleLeft">@drawable/m_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/m_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle_middle</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewm</item>
+
+        <item name="android:buttonStyle">@style/Buttonm</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonm</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerm</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarm</item>
+
+    </style>
+    <style name="m" parent="@style/_m"/>
 </resources>

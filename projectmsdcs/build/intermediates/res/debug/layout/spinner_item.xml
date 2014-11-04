@@ -8,4 +8,4 @@
     android:padding="12dp"
     android:textColor="@color/text_medium"
     tools:context="in.ceeq.msdcs.fragment.TimeLineFragment" />
-<!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/layout/spinner_item.xml -->
+<!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/layout/spinner_item.xml -->

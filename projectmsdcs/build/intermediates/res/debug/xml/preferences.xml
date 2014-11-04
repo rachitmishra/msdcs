@@ -27,4 +27,4 @@
         android:title="@string/contact" >
        <Preference android:title="@string/contact_email" />
     </PreferenceCategory>
-</PreferenceScreen><!-- From: file:/D:/AndroidstudioProjects/ProjectMsdcs/projectmsdcs/src/main/res/xml/preferences.xml -->
+</PreferenceScreen><!-- From: file:/D:/source/ProjectMsdcs/projectmsdcs/src/main/res/xml/preferences.xml -->
